@@ -10,6 +10,11 @@ app.db = router.db;
 
 const rules = auth.rewriter({
   users: 600,
+  //Deve ser dono para ler e escrever
+  bills: 640,
+  //Deve ser dono para escrever, logado pode ler
+  suppliers: 440,
+  // Ninguém pode escrever, logado pode ler
 });
 
 app.use(cors());

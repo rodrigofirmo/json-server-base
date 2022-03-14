@@ -6,6 +6,67 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "rodrigo@mail.com",
+      "password": "$2a$10$5PkNGX8r/ssEx4M0CfI7NuXBi2twP/X./NHECPcv/qGowc1EwaEbW",
+      "id": 2
+    }
+  ],
+  "bills": [
+    {
+      "supplier": "Claro",
+      "amount": 5000,
+      "currency": "BRL",
+      "duedatemonth": "march",
+      "duedateday": 25,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "supplier": "Oi",
+      "amount": 2000,
+      "currency": "BRL",
+      "duedatemonth": "april",
+      "duedateday": 25,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "supplier": "Vivo",
+      "amount": 20000,
+      "currency": "BRL",
+      "duedatemonth": "april",
+      "duedateday": 2,
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "supplier": "Oi",
+      "amount": 75000,
+      "currency": "BRL",
+      "duedatemonth": "april",
+      "duedateday": 8,
+      "userId": 2,
+      "id": 5
+    }
+  ],
+  "suppliers": [
+    {
+      "supplier": "Vivo",
+      "id": 1
+    },
+    {
+      "supplier": "Claro",
+      "id": 2
+    },
+    {
+      "supplier": "Oi",
+      "id": 3
+    },
+    {
+      "supplier": "Tim",
+      "id": 4
     }
   ]
 }
